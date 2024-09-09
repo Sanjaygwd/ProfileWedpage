@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equip="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <tittle>Responsive Personal Portfolio Website Design</tittle>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>S</span>anjay.</a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's me</h3>
+            <h1>Sanjay KR</h1>
+            <h3>And I am a<span> Frontend Developer!</span></h3>
+            <p>An Information Science Engineer who skilled in Frontend Web Development<br> 
+                and intrested to participate in emerging technologies.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/sanjay-kr-gowda" target="_blank">
+                    <i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Sanjaygwd" target="_blank">
+                    <i class='bx bxl-github'></i></a>
+                <a href="https://instagram.com/knowme_sanjay/" target="_blank">
+                    <i class='bx bxl-instagram-alt'></i></a>
+            </div>
+            <a href="Sanjay_Resume.pdf" class="btn">Download Resume</a>
+        </div>
+        <div class="home-img">
+            <img src="img/home_img.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/about-img.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading"> About <span>ME</span></h2>
+            <h3>Frontend Developer!</h3>
+            <p>Hello, Welcome to my portfolio website! I'm thrilled to have you here. Introducing myself as passionate and skilled Frontend Developer, and also i am trained in Machine Learning.
+                Over the years, my passion for frontend development has only grown stronger, and I am constantly on the lookout for new technologies and trends to stay ahead in this ever-evolving field.<br><br> 
+                &emsp; While frontend development is my primary expertise, I have a deep fascination for Machine Learning and its potential to transform industries and solve complex problems. 
+                I have invested considerable time and effort in learning and mastering the principles of Machine Learning, including data preprocessing, feature engineering, model selection, and evaluation.<br><br>
+                &emsp; I am not just a coder; I am a problem solver. I thrive on challenges and enjoy finding elegant solutions to complex issues. My goal is to create not just functional websites but ones that 
+                leave a lasting impression on users. I pay meticulous attention to detail and believe in writing clean and maintainable code.
+            </p>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading"> Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/web.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Attractive Webpage</p>
+                    <a href="#"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/ml.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Machine Learning</h4>
+                    <p>Stock Price Prediction</p>
+                    <a href="#"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/ai.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Artificial Intelligence</h4>
+                    <p>Chat Bot</p>
+                    <a href="#"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br>
+        <h2 class="heading"> <span>Certificates</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="certificates/portfolio4.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Programming for Everybody</h4>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="certificates/portfolio5.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Python for DataScience, AI and Development</h4>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="certificates/portfolio6.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Innovation Through Design</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        
+        <form action="3">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Adress">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Thank you!</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bxs-chevrons-up'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
